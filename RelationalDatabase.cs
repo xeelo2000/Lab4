@@ -336,9 +336,6 @@ namespace Lab4
             return connectionString = $"Host={bitHost};Username={bitUser};Password={bitApiKey};Database={bitDbName}";
         }
 
-        public void DatabaseTest()
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }

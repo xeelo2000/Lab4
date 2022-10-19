@@ -182,12 +182,6 @@ namespace Lab4
         }
 
 
-        /// <summary>
-        /// Changes the database to the DatabaseTest that we are using for testing purposes
-        /// </summary>
-        public void DatabaseTest()
-        {
-            db = new DatabaseTest();
-        }
+        
     }
 }

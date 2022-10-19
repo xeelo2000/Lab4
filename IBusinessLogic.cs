@@ -14,5 +14,6 @@ namespace Lab4
         ObservableCollection<Entry> GetEntries();
         SortByClueError SortByClue();
         SortByAnswerError SortByAnswer();
+        void DatabaseTest();
     }
 }

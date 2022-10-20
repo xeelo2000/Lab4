@@ -61,6 +61,10 @@ namespace Lab4
             {
                 return InvalidFieldError.InvalidDifficulty;
             }
+            if(!DateTime.TryParse(date, out DateTime result))
+            {
+                return InvalidFieldError.InvalidDate;
+            }
 
             return InvalidFieldError.NoError;
         }
